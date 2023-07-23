@@ -3,6 +3,7 @@ audio2text  ffmpeg wisper gp4correct
 
 
 #step1 
+
 ffmpeg -i input.mp3 -f segment -segment_times 0,600,1200,1800,2400,3000,3600,4200 -reset_timestamps 1 -map 0:a -c:a copy output_%03d.mp3
 
 
