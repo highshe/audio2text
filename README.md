@@ -19,6 +19,8 @@ curl  https://api.openai.com/v1/audio/transcriptions \
 
 
 #step3  use gpt4 correct
+
+
 refer
 https://platform.openai.com/docs/guides/speech-to-text/improving-reliability?lang=curl
 
